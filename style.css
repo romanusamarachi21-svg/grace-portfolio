@@ -428,4 +428,271 @@ footer{text-align:center;padding:30px;color:#94a3b8}
 
 }
 
+/* BLOOD BANK CASE STUDY PAGE */
 
+
+.project-hero {
+
+padding:90px 7%;
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:50px;
+
+align-items:center;
+
+}
+
+
+
+.project-intro h1 {
+
+font-size:55px;
+
+line-height:1.1;
+
+margin:20px 0;
+
+}
+
+
+
+.hero-description {
+
+color:#94a3b8;
+
+font-size:18px;
+
+line-height:1.8;
+
+max-width:600px;
+
+}
+
+
+
+.dashboard-card {
+
+padding:20px;
+
+border-radius:30px;
+
+background:rgba(255,255,255,.04);
+
+border:1px solid rgba(255,255,255,.1);
+
+box-shadow:
+0 0 40px rgba(34,211,238,.12);
+
+}
+
+
+
+.dashboard-card img {
+
+width:100%;
+
+border-radius:20px;
+
+}
+
+
+
+
+
+.case-section {
+
+padding:40px 7%;
+
+}
+
+
+
+.case-card,
+.insight-card {
+
+background:
+
+linear-gradient(
+145deg,
+rgba(255,255,255,.06),
+rgba(255,255,255,.02)
+);
+
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:28px;
+
+padding:35px;
+
+backdrop-filter:blur(15px);
+
+transition:.35s ease;
+
+}
+
+
+
+.case-card:hover,
+.insight-card:hover {
+
+transform:translateY(-8px);
+
+box-shadow:
+0 0 35px rgba(34,211,238,.15);
+
+}
+
+
+
+.case-card p,
+.insight-card p {
+
+color:#94a3b8;
+
+line-height:1.8;
+
+}
+
+
+
+.section-title {
+
+text-align:center;
+
+font-size:38px;
+
+margin-bottom:40px;
+
+}
+
+
+
+.workflow {
+
+display:flex;
+
+justify-content:center;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+}
+
+
+
+.workflow div {
+
+width:170px;
+
+padding:25px;
+
+text-align:center;
+
+border-radius:20px;
+
+background:rgba(255,255,255,.04);
+
+border:1px solid rgba(255,255,255,.08);
+
+}
+
+
+
+.workflow h3 {
+
+color:#22d3ee;
+
+}
+
+
+
+.insight-grid,
+.recommendation-grid {
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:25px;
+
+}
+
+
+
+.dashboard-section {
+
+text-align:center;
+
+background:rgba(255,255,255,.04);
+
+padding:40px;
+
+border-radius:30px;
+
+border:1px solid rgba(255,255,255,.08);
+
+}
+
+
+
+.dashboard-section img {
+
+margin-top:30px;
+
+width:90%;
+
+border-radius:20px;
+
+}
+
+
+
+.project-footer {
+
+text-align:center;
+
+padding:80px 7%;
+
+}
+
+
+
+.project-footer p {
+
+color:#94a3b8;
+
+margin:20px;
+
+}
+
+
+
+@media(max-width:900px){
+
+.project-hero{
+
+grid-template-columns:1fr;
+
+}
+
+
+.insight-grid,
+.recommendation-grid{
+
+grid-template-columns:1fr;
+
+}
+
+
+.project-intro h1{
+
+font-size:40px;
+
+}
+
+}
