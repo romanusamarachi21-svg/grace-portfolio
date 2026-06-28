@@ -788,3 +788,37 @@ font-size:40px;
 }
 
 }
+/* FORCE BLOOD BANK PAGE COLORS */
+
+
+.case-card h2,
+.case-card h3,
+.section-title,
+.dashboard-section h2 {
+
+    color: #22d3ee !important;
+
+}
+
+
+.insight-card h3 {
+
+    color: #22d3ee !important;
+
+}
+
+
+.insight-card p {
+
+    color: #f8fafc !important;
+
+}
+
+
+/* Keep hero title white */
+
+.project-intro h1 {
+
+    color: #ffffff !important;
+
+}
