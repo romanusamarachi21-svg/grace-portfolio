@@ -357,3 +357,64 @@ footer{text-align:center;padding:30px;color:#94a3b8}
     border:1px solid rgba(34,211,238,0.2);
 
 }
+
+/* PROJECT BUTTON */
+
+.project-btn {
+
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    margin-top: 25px;
+
+    padding: 13px 26px;
+
+    border-radius: 16px;
+
+    text-decoration: none;
+
+    color: white;
+
+    font-weight: 600;
+
+    background:
+    linear-gradient(
+        135deg,
+        #8b5cf6,
+        #06b6d4
+    );
+
+    transition: all .35s ease;
+
+    box-shadow:
+    0 0 20px rgba(34,211,238,0.12);
+
+}
+
+
+.project-btn span {
+
+    transition: .3s ease;
+
+}
+
+
+.project-btn:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow:
+
+    0 0 25px rgba(34,211,238,0.35),
+
+    0 0 50px rgba(139,92,246,0.25);
+
+}
+
+
+.project-btn:hover span {
+
+    transform: translateX(6px);
+
+}
