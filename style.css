@@ -695,4 +695,96 @@ font-size:40px;
 
 }
 
+  /* BLOOD BANK DESIGN UPDATES */
+
+
+/* Reduce overview card width */
+
+.overview-section {
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:45px;
+
+}
+
+
+
+.summary-card {
+
+    max-width:850px;
+
+    width:100%;
+
+}
+
+
+
+
+/* Remove hover effects from case cards */
+
+.case-card:hover {
+
+    transform:none;
+
+    box-shadow:none;
+
+}
+
+
+
+/* Blue headings */
+
+.case-card h2,
+.section-title,
+.dashboard-section h2 {
+
+    color:#22d3ee;
+
+}
+
+
+
+.insight-card h3 {
+
+    color:#22d3ee;
+
+}
+
+
+
+/* Insight paragraph remains white */
+
+.insight-card p {
+
+    color:#f1f5f9;
+
+}
+
+
+
+/* Increase spacing */
+
+.overview-section {
+
+    padding-top:70px;
+
+    padding-bottom:70px;
+
+}
+
+
+
+/* Keep hero title unchanged */
+
+.project-intro h1 {
+
+    color:white;
+
+}
+
 }
